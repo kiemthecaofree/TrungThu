@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trung Thu Nhận Quà</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="bar">
+            <i class="fa fa-bars" id = 'fa-bars'></i>
+            <div class="navigation" id = 'nav'>
+                <ul class="menu_list">
+                    <li class = 'list_item animation_one active'><a href="#home">Trang Chủ</a></li>
+                    <li class = 'list_item animation_one'><a href="#reg">Tham Gia</a></li>
+                    <li class = 'list_item animation_two'><a href="#contact">Liên Hệ</a></li>
+                    <li class = 'list_item animation_two'><a href="https://kiemthecaofree.com" target="_blank">Kiếm Thẻ Cào</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="screen-one mid" id = 'home'>
+            <div class="screen-one__child mids hidden_hidden">
+                <img src="images/logo.png" alt="">
+                <h2>cùng làm sống lại <br> hình ảnh trung thu <br> xưa của bạn</h2>
+                <p>để trải nghiệm mỘt mùa trăng rằm sống động hơn bao giờ hết</p>
+                <div class="button_group">
+                    <button class="btn"><a href="#reg">Tham gia ngay</a></button>
+                    <button class="btn btn-faq"><a href="#faq">Câu hỏi thường gặp</a></button>
+                </div>
+            </div>
+            <div class="card_container">
+                <img src="images/viettel.png" class = 'card_vn' alt="viettel" id = 'viettel_1'>
+                <img src="images/vinaphone.jpeg" class = 'card_vn' alt="vinaphone" id = 'vina_1'>
+                <img src="images/viettel.png" class = 'card_vn' alt="viettel" id = 'viettel_2'>
+                <img src="images/vinaphone.jpeg" class = 'card_vn' alt="vinaphone" id = 'vina_2'>
+            </div>
+        </div>
+        <div class="screen-two mid" id ='reg'>
+            <div class="screen-two__child mids hidden_hidden">
+                <img src="" alt="">
+                <h2>Tham gia sự kiện <br> nhận ngay 10K miễn phí</h2>
+                <form class = 'form-group'>
+                    <label>Nhập số điện thoại tham gia</label>
+                    <input type="number" id="input_number" required placeholder="Nhập SĐT của bạn vào đây">
+                    <button type="submit" id = 'btn_submit' class="btn btn_submit">Nhận Link Tham Gia</button>
+                </form>
+                <div class="show_link" id = 'show_link'>
+                    <p class = 'notify'>Điền số điện thoại + Nhấp nhận Link để lấy link tham gia chương trình</p> 
+                    <!-- <p>Chào: <span style="color: #007bff;">0378544081</span></p>
+                    <p style="border-bottom: 3px solid #fff; display: inline-block;">Link tham gia: <a href="#" target="_blank">Tại đây</a> </p>
+                    <p class = 'notify'>Bạn vui lòng nhấp vào đường link phía trên để tham gia</p> -->
+                </div>
+            </div>
+        </div>
+         <div class="screen-three mid" id = 'faq'>
+            <div class="screen-three__child mids hidden_hidden">
+                <img src="images/kiemthecaofree.png" alt="">
+                <h2 class = "screen-three__title">Các câu hỏi thường gặp</h2>
+                <div class="faq_container">
+                    <div class="faq_box">
+                        <h3 class = 'faq_question'>Tham gia chương trình như thế nào</h3>
+                        <span class = 'faq_answer'>
+                            Với chương trình lần này, bạn không phải tham gia tại đây mà bạn cần lấy đường link để tham gia. Do vậy, bạn hãy nhập số điện thoại sau đó chọn nhận link để nhận đường link tham gia chương trình.
+                        </span>
+                    </div>
+                    <div class="faq_box">
+                        <h3 class = 'faq_question'>Tham gia thế nào thì hợp lệ</h3>
+                        <span class = 'faq_answer'>
+                            Bạn chỉ cần bấm tham gia theo đường link đã tạo ở trên, sau đó làm các yêu cầu mình có đưa ra hướng dẫn trên blog kiếm thẻ cào free.
+                        </span>
+                    </div>
+                    <div class="faq_box">
+                        <h3 class = 'faq_question'>Nhận thưởng như thế nào</h3>
+                        <span class = 'faq_answer'>
+                            Bạn có thể liên hệ mình để nhận thẻ cào/Momo mình thông qua các kênh MXH Facebook hoặc Zalo.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="screen-four mid" id ='contact'>
+            <div class="screen-four__child mids hidden_hidden">
+                <img src="" alt="">
+                <h2>Liên Hệ Chúng Tôi</h2>
+                <div class="contact">
+                    <div class="contact-items">
+                        <div class="contact_box">
+                            <a href="https://www.facebook.com/kiemthecaocom" target="_blank"><img src="images/facebook.png" alt="kiem the cao"></a>
+                        </div>
+                        <div class="contact_box">
+                            <a href="https://zalo.me/ducngocx8" target="_blank"><img src="images/zalo.png" alt="kiem the cao"></a>
+                        </div>
+                        <div class="contact_box">
+                            <a href="https://www.youtube.com/channel/UC1aA59ZcwfMJI2QN2G1dZ1g" target="_blank"><img src="images/youtube.png" alt="kiem the cao"></a>
+                        </div>
+                    </div>
+
+                    <p class = 'contact__info'>Kiếm Thẻ Cào Free là Blog chia sẻ cách kiếm tiền online, thẻ cào trên điện thoại Android và Ios, các trang khảo sát online uy tín nhanh nhất và đọc báo hay 24h.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="backdrop" id = 'loaded'>
+        <div class="loaded">
+        <img src="images/loader.svg" alt="">
+    </div>
+    </div>
+    <div class="mussic">
+        <audio src="mp3/Nhac_Trung_Thu.mp3" autoplay loop></audio>
+    </div>
+    <footer>
+        <div class="copyright">
+            <p>© 2021 Kiem The Cao. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="javascript.js"></script>
+</body>
+</html>
